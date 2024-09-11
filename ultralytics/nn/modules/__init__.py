@@ -65,6 +65,7 @@ from .conv import (
     LightConv,
     RepConv,
     SpatialAttention,
+    ODConv2d_yolo
 )
 from .head import OBB, Classify, Detect, Pose, RTDETRDecoder, Segment, WorldDetect, v10Detect
 from .transformer import (
@@ -80,6 +81,7 @@ from .transformer import (
     TransformerLayer,
 )
 
+#from ODConv import ODConv2d
 __all__ = (
     "Conv",
     "Conv2",
@@ -144,4 +146,6 @@ __all__ = (
     "SCDown",
     "RepVGGDW",
     "v10Detect"
+    "ODConv2d_yolo"
+    "ODConv"
 )
